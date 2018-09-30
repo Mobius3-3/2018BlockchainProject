@@ -1,5 +1,5 @@
-2018/09/27-08:05:31.761 5b0c Recovering log #17
-2018/09/27-08:05:31.761 5b0c Level-0 table #19: started
-2018/09/27-08:05:31.824 5b0c Level-0 table #19: 198 bytes OK
-2018/09/27-08:05:31.893 5b0c Delete type=0 #17
-2018/09/27-08:05:31.894 5b0c Delete type=3 #16
+2018/09/30-08:48:10.035 4e4 Recovering log #97
+2018/09/30-08:48:10.035 4e4 Level-0 table #99: started
+2018/09/30-08:48:10.097 4e4 Level-0 table #99: 372 bytes OK
+2018/09/30-08:48:10.175 4e4 Delete type=0 #97
+2018/09/30-08:48:10.175 4e4 Delete type=3 #95
