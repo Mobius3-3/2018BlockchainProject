@@ -1,5 +1,5 @@
-2018/09/30-08:41:28.191 23ac Recovering log #94
-2018/09/30-08:41:28.191 23ac Level-0 table #96: started
-2018/09/30-08:41:28.258 23ac Level-0 table #96: 1338 bytes OK
-2018/09/30-08:41:28.347 23ac Delete type=0 #94
-2018/09/30-08:41:28.347 23ac Delete type=3 #93
+2018/10/23-00:34:47.964 557c Recovering log #164
+2018/10/23-00:34:47.964 557c Level-0 table #166: started
+2018/10/23-00:34:48.024 557c Level-0 table #166: 1316 bytes OK
+2018/10/23-00:34:48.097 557c Delete type=0 #164
+2018/10/23-00:34:48.098 557c Delete type=3 #162

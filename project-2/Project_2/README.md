@@ -47,13 +47,17 @@ node
 
 4: Instantiate blockchain with blockchain variable
 ```
-let blockchain = new Blockchain();
+      <!-- ./, -->
 ```
 
 5: Generate 10 blocks using a for loop
 ```
 for (var i = 0; i <= 10; i++) {
   blockchain.addBlock(new Block("test data "+i));
+}
+
+for (var i = 0; i <= 3; i++) {
+  test.addBlock(new block("test data "+i));
 }
 ```
 
