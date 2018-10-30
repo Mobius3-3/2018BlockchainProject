@@ -92,6 +92,8 @@ class Blockchain {
 
     }
 
+    if (!this.validateBlock(blockChainHeight)) errorLog.push(i)
+
     if (errorLog.length > 0) {
       console.log('Block errors = ' + errorLog.length)
       console.log('Blocks: ' + errorLog)
