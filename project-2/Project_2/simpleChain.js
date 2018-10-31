@@ -81,7 +81,7 @@ class Blockchain {
     for (let i = 0; i < blockChainHeight; i++) {
 
       // validate a single block
-      if (!this.validateBlock(i)) errorLog.push(i)
+      if (!(await this.validateBlock(i))) errorLog.push(i)
 
       // compare blocks hash link
       let blockHash = this.getBlock(i).hash
@@ -92,7 +92,7 @@ class Blockchain {
 
     }
 
-    if (!this.validateBlock(blockChainHeight)) errorLog.push(i)
+    if (!(await this.validateBlock(blockChainHeight))) errorLog.push(blockChainHeight)
 
     if (errorLog.length > 0) {
       console.log('Block errors = ' + errorLog.length)
