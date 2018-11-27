@@ -6,7 +6,7 @@
  */
 const utils = {
     empty: (obj) => {
-      if (obj === true) return false
+      if (obj) return false
       for (let key in obj) {
         if (obj.hasOwnProperty(key)) return false
       }
